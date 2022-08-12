@@ -201,7 +201,7 @@ a:hover{
 .sld:hover{
 	background-color: #aaaa;
 	border-right: 3px solid #FFFFFF;
-	font-size: 22px;
+	font-size: 20px;
 	color: #FBD784;
 	opacity: 0.8;
 }
@@ -209,8 +209,9 @@ a:hover{
 .sld_active {
 	background-color: #aaaa;
 	border-right: 3px solid #FFFFFF;
-	font-size: 22px;
+	font-size: 20px;
 	color: #FBD784;
+	
 }
 
 
