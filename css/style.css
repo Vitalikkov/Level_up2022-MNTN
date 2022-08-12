@@ -1,0 +1,551 @@
+*{
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #0B1D26;
+	background-image: url("../img/group19.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+
+}
+
+.wrapper{
+	margin: 0 auto;
+	padding: 64px 60px 120px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	max-width: 100%;
+
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+a:hover{
+	color: #FBD784;
+}
+
+
+.parallax{
+}
+
+.img_parallax{
+	
+}
+
+.img_sky{
+	
+}
+.img_mount
+.img_human
+
+.header {
+	display: flex;
+	background-image: url("../img/group19.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.nav {
+	display:  flex;
+	flex-direction: row;
+	justify-content:  space-between;
+	align-items: center;
+	text-align: center;
+	height: 25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	
+
+	
+}
+.logo{
+	width: 108px;
+	height: 24px;
+	
+}
+
+.menu{
+	/*position: absolute;*/
+
+	
+}
+
+.menus {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.menus li{
+	list-style: none;
+	padding-right: 40px;
+	text-align: center;
+	margin: 0 0;
+}
+
+
+.account a{
+	display: flex;
+    align-items: center;
+}
+
+.account_img {
+	margin-right: 10px;
+}
+
+
+
+.first_content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 199px;
+	margin: 0 auto;
+	gap: 32px;
+	max-width: 950px;
+	padding-left: 127px;
+    padding-right: 50px;
+}
+
+
+.tag_line{
+	display: flex;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: #FBD784;
+	align-items: center;
+
+}
+
+.tag_line::before{
+	width: 72px;
+	content: "";
+	background: #FBD784;
+	height: 2px;
+	margin-right: 32px;
+}
+.first_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 88px;
+	line-height: 100px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin: 0;
+}
+.start_scroll a{
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	
+}
+.scroll_img{
+	margin-left: 16px;
+}
+
+
+
+.fixed_skroll{
+	display:  flex;
+	
+}
+.social{
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-right: 20px;
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.social .followUs{
+	writing-mode: vertical-rl;
+	padding-bottom: 24px;
+}
+
+.sld{
+	padding: 0 10px;
+	border-right: 3px solid #aaa;
+	cursor: pointer;
+	list-style: none;
+}
+
+.sld:hover{
+	background-color: #aaaa;
+	border-right: 3px solid #FFFFFF;
+	font-size: 22px;
+	color: #FBD784;
+	opacity: 0.8;
+}
+
+.sld_active {
+	background-color: #aaaa;
+	border-right: 3px solid #FFFFFF;
+	font-size: 22px;
+	color: #FBD784;
+}
+
+
+
+.slider{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 60px;
+	top: 50%;
+	align-content: flex-end;
+	transform: translateY(-50%);
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 40px;
+	text-align: right;
+	color: #ffff;
+	opacity: 0.8;
+
+}
+
+.content {
+	box-sizing: border-box;
+	display: flex;
+    flex-direction: column;
+    /*padding-top: 844px;*/
+    width: 95%;
+    margin: 0 auto;
+    padding: 844px 50px 0 50px;
+    gap: 200px;
+}
+
+.get_srarted, .hiking_essentials, .where_key{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin:  0 auto;
+	max-width: 100%;
+	min-height: 720px;
+}
+
+.index_01, .index_02, .index_03{
+	position: absolute;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 240px;
+	line-height: 240px;
+	color: #FFFFFF;
+	opacity: 0.1;
+	padding-top: 32px;
+}
+
+.content_01, .content_02, .content_03{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-left: 140px;
+	gap: 27px;
+	max-width: 100%;
+	max-height: 439px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+
+
+.main_img{
+	padding-left: 114px;
+	max-width: 100%;
+	max-height: 720px;
+}
+
+.main_line{
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: #FBD784;
+}
+
+.main_line::before{
+	width: 72px;
+	content:"";
+	background: #FBD784;
+	height: 2px;
+	margin-right: 32px;
+}
+
+.main_h1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 77px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.read_more a{
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 22px;
+	color: #FBD784;
+}
+
+.read_more img{
+	padding-left: 16px;
+}
+
+.hiking_essentials{
+	display: flex;
+	flex-direction: row-reverse ;
+	justify-content: space-around;
+	/*padding-left: 0px;*/
+}
+
+.hiking_essentials .main_img{
+	padding-left: 0px;
+	padding-right: 114px;
+	max-width: 100%;
+	max-height: 720px;
+}
+
+.hiking_essentials .index_02{
+	position: absolute;
+	display: flex;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 240px;
+	line-height: 240px;
+	color: #FFFFFF;
+	opacity: 0.1;
+	margin-top: -140px;
+	margin-left: -120px;
+	
+}
+
+.footer_content{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 50px 0 50px;
+	width: 100%;
+   	margin: 200px auto 0 auto;
+    height: 280px;
+    /*column-gap: 335px;*/
+	
+}
+.items1 {
+	margin: 0;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FBD784;
+	padding-bottom: 24px;
+}
+
+.footer_one{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	
+}
+
+.more_blog{
+	/*display: flex;*/
+	padding-left: 250px;
+	
+}
+
+.more_mntn{
+	
+}
+
+.blog_items{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 45px;
+	color: #FFFFFF;
+}
+
+
+.more_blog ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	
+
+}
+.more_mntn ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	
+}
+.footer_logo{
+	padding-bottom: 24px;
+}
+
+.footer_txt{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+ .copyright{
+ 	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+
+@media (max-width: 1400px){
+	.wrapper{
+	    	margin: 0 auto;
+		padding: 64px 40px 120px;
+		display: flex;
+		flex-direction: column;
+		color: white;
+		max-width: 100%;
+	}
+	.slider{
+		right: 20px;
+	}
+
+
+}
+
+@media (max-width: 1320px){
+	.wrapper{
+		padding: 64px 20px 120px;
+
+	}
+
+	.content{
+		padding: 550px 50px 0 50px;
+	}
+
+	.slider{
+		    right: 20px
+	}
+
+	.get_srarted, .hiking_essentials, .where_key {
+	    box-sizing: border-box;
+	    display: flex;
+	    margin: 0 auto;
+	    max-width: 90%;
+	    min-height: 1000px;
+	    align-items: center;
+	    flex-direction: column;
+	}
+	.footer_content{
+		    padding: 0px 70px 0 70px;
+	}
+
+	.get_srarted .index_01, .where_key .index_03{
+	position: absolute;
+	display: flex;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 240px;
+	line-height: 240px;
+	color: #FFFFFF;
+	opacity: 0.1;
+	margin-top: -140px;
+	left: 100px;
+	}
+
+	.content_01, .content_02, .content_03{
+		padding-left: 0;
+	}
+
+	.hiking_essentials .main_img {
+	    
+	     padding-right: 0px; 
+	    
+	}
+
+	.main_img{
+		padding-left: 0px;
+		padding-top: 100px;
+		max-width: 100%;
+		max-height: 720px;
+	}
+
+	.more_blog{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 950px){
+	.content{
+		padding: 300px 50px 0 50px;
+	}
+	.first_content{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: 100px;
+		margin: 0 auto;
+		gap: 32px;
+		max-width: 950px;
+		padding-left: 150px;
+	    padding-right: 50px;
+	}
+
+	.more_blog, .more_mntn{
+		padding-left: 10px;
+}
