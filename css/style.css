@@ -201,7 +201,7 @@ a:hover{
 .sld:hover{
 	background-color: #aaaa;
 	border-right: 3px solid #FFFFFF;
-	font-size: 18px;
+	font-size: 20px;
 	color: #FBD784;
 	opacity: 0.8;
 }
@@ -209,7 +209,7 @@ a:hover{
 .sld_active {
 	background-color: #aaaa;
 	border-right: 3px solid #FFFFFF;
-	font-size: 18px;
+	font-size: 20px;
 	color: #FBD784;
 
 }
@@ -280,6 +280,8 @@ a:hover{
 	font-size: 18px;
 	line-height: 32px;
 	color: #FFFFFF;
+	animation-name: content;
+	animation-delay: 3s;
 }
 
 
@@ -288,6 +290,8 @@ a:hover{
 	padding-left: 114px;
 	max-width: 100%;
 	max-height: 720px;
+	animation-name: img;
+	animation-delay: 5s;
 }
 
 .main_line{
@@ -451,6 +455,21 @@ a:hover{
 	color: #FFFFFF;
 	opacity: 0.5;
 }
+
+/*
+@keyframes content {
+	from {
+		transition: translateX(-1440px);
+		}
+	to {transition: translateX(200px)}
+}
+ 
+ @keyframes img {
+ 	from {
+		transition: translateX(3500px);
+		}
+	to {transition: translateX(100px)}
+ }*/
 
 @media (max-width: 1400px){
 	.wrapper{
